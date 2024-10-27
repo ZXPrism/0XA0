@@ -1,0 +1,10 @@
+.vs
+.vscode
+.cache
+.xmake
+bin
+build
+out
+*.iso
+iso
+obj
