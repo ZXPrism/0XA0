@@ -12,7 +12,7 @@ CRTN_OBJ := obj/asm/runtime/crtn.o
 
 
 CC := i686-elf-g++
-CFLAGS := -ffreestanding -O2 -Wall -Wextra -fno-exceptions -fno-rtti -nostdlib
+CFLAGS := -ffreestanding -O2 -Wall -Wextra -Werror -fno-exceptions -fno-rtti -nostdlib
 
 
 CRTBEGIN_OBJ := $(shell $(CC) $(CFLAGS) -print-file-name=crtbegin.o)

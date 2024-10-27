@@ -8,3 +8,4 @@ out
 *.iso
 iso
 obj
+compile_commands.json
