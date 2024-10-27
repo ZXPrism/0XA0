@@ -46,6 +46,7 @@ clean :
 	-rm -rf obj
 	-rm -rf *.iso
 	-rm -rf iso
+	-rm -rf boot
 
 
 .PHONY : clean ALL
